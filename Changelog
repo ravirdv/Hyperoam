@@ -1,0 +1,9 @@
+0.2
+	* Settings are saved using QSettings
+	* New Icons :D
+	* Many bugfixes
+	* Middle click to change account
+	* Added Tray Icon 
+0.1 
+	* Basic Functionality in place :D 
+	* Initial  UI Design
