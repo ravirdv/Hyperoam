@@ -1,0 +1,828 @@
+<!DOCTYPE QtCreatorProject>
+<qtcreator>
+ <data>
+  <variable>RunConfiguration0-BaseEnvironmentBase</variable>
+  <value type="int">2</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-CommandLineArguments</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>RunConfiguration0-ProFile</variable>
+  <value type="QString">HypeRoam.pro</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-RunConfiguration.name</variable>
+  <value type="QString">HypeRoam</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UseDyldImageSuffix</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UseTerminal</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UserEnvironmentChanges</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UserSetName</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UserSetWorkingDirectory</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UserWorkingDirectory</variable>
+  <value type="QString"></value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-type</variable>
+  <value type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+ </data>
+ <data>
+  <variable>activeRunConfiguration</variable>
+  <value type="int">0</value>
+ </data>
+ <data>
+  <variable>activebuildconfiguration</variable>
+  <value type="QString">Debug</value>
+ </data>
+ <data>
+  <variable>buildConfiguration-Debug</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
+   <value key="QtVersionId" type="int">2</value>
+   <value key="ToolChain" type="int">0</value>
+   <value key="addQDumper" type=""></value>
+   <value key="buildConfiguration" type="int">2</value>
+   <value key="buildDirectory" type="QString">C:\HypeRoam</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildConfiguration-S60_3rd_FP1 (Qt 4.6.0) Debug</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP1 (Qt 4.6.0) Debug</value>
+   <value key="QtVersionId" type="int">5</value>
+   <value key="ToolChain" type="int">0</value>
+   <value key="addQDumper" type=""></value>
+   <value key="buildConfiguration" type="int">2</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildConfiguration-S60_3rd_FP1 (Qt 4.6.0) Release</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP1 (Qt 4.6.0) Release</value>
+   <value key="QtVersionId" type="int">5</value>
+   <value key="ToolChain" type="int">0</value>
+   <value key="addQDumper" type=""></value>
+   <value key="buildConfiguration" type="int">0</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildConfiguration-release</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">release</value>
+   <value key="QtVersionId" type="int">2</value>
+   <value key="ToolChain" type="int">0</value>
+   <value key="addQDumper" type=""></value>
+   <value key="buildConfiguration" type="int">0</value>
+   <value key="buildDirectory" type="QString">C:\HypeRoam</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Debug-buildstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-rbVWDm7rkE,guid=b94d6678a78a36222218afab0000de6f</value>
+    <value type="QString">DERBY_HOME=/opt/java/db</value>
+    <value type="QString">DESKTOP_SESSION=default</value>
+    <value type="QString">DISPLAY=:0</value>
+    <value type="QString">DM_CONTROL=/var/run/xdmctl</value>
+    <value type="QString">GPG_AGENT_INFO=/tmp/gpg-s9h6ed/S.gpg-agent:14276:1</value>
+    <value type="QString">GS_LIB=/home/ravi/.fonts</value>
+    <value type="QString">GTK2_RC_FILES=/home/ravi/.gtkrc-2.0-kde4</value>
+    <value type="QString">G_BROKEN_FILENAMES=1</value>
+    <value type="QString">HG=/usr/bin/hg</value>
+    <value type="QString">HISTCONTROL=erasedups</value>
+    <value type="QString">HISTSIZE=1000</value>
+    <value type="QString">HOME=/home/ravi</value>
+    <value type="QString">INPUTRC=/etc/inputrc</value>
+    <value type="QString">J2SDKDIR=/opt/java</value>
+    <value type="QString">JAVA_HOME=/opt/java</value>
+    <value type="QString">KDE_FULL_SESSION=true</value>
+    <value type="QString">KDE_MULTIHEAD=false</value>
+    <value type="QString">KDE_SESSION_UID=1000</value>
+    <value type="QString">KDE_SESSION_VERSION=4</value>
+    <value type="QString">LANG=en_IN.utf8</value>
+    <value type="QString">LANGUAGE=</value>
+    <value type="QString">LD_LIBRARY_PATH=/opt/qtsdk-2009.05/lib/qtcreator:</value>
+    <value type="QString">LESS=-R</value>
+    <value type="QString">LOGNAME=ravi</value>
+    <value type="QString">MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins</value>
+    <value type="QString">PATH=/usr/bin:/bin:/usr/bin:/sbin:/usr/sbin:/opt/java/bin:/opt/java/jre/bin:/usr/bin/perlbin/site:/usr/bin/perlbin/vendor:/usr/bin/perlbin/core</value>
+    <value type="QString">PKG_CONFIG_PATH=/usr/lib/pkgconfig</value>
+    <value type="QString">PS3=> </value>
+    <value type="QString">PS4=+ </value>
+    <value type="QString">PWD=/home/ravi/Documents</value>
+    <value type="QString">QTDIR=/usr/share/qt</value>
+    <value type="QString">QT_PLUGIN_PATH=/home/ravi/.kde4/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
+    <value type="QString">SESSION_MANAGER=local/Isengard:@/tmp/.ICE-unix/14330,unix/Isengard:/tmp/.ICE-unix/14330</value>
+    <value type="QString">SHELL=/bin/bash</value>
+    <value type="QString">SHLVL=1</value>
+    <value type="QString">SSH_AGENT_PID=14279</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-VRxgC14278/agent.14278</value>
+    <value type="QString">USER=ravi</value>
+    <value type="QString">WINDOWPATH=7</value>
+    <value type="QString">XCURSOR_THEME=Oxygen_Black</value>
+    <value type="QString">XDG_CACHE_HOME=/home/ravi/.cache</value>
+    <value type="QString">XDG_CONFIG_DIRS=/etc/xdg</value>
+    <value type="QString">XDG_CONFIG_HOME=/home/ravi/.config</value>
+    <value type="QString">XDG_DATA_DIRS=/usr/share:/usr/local/share</value>
+    <value type="QString">XDG_DATA_HOME=/home/ravi/.local/share</value>
+    <value type="QString">XDG_SESSION_COOKIE=dfbdcc73b46dafd558a6ee7f4b0fd604-1269804220.335849-1856029465</value>
+    <value type="QString">XDM_MANAGED=method=classic</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">/home/ravi/HypeRoam/HypeRoam.pro</value>
+    <value type="QString">-spec</value>
+    <value type="QString">linux-g++</value>
+    <value type="QString">-r</value>
+    <value type="QString">CONFIG+=debug</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">/usr/bin/qmake</value>
+   <value key="abstractProcess.enabled" type="bool">false</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/ravi/HypeRoam</value>
+   <value key="buildConfiguration" type=""></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Debug-buildstep1</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-rbVWDm7rkE,guid=b94d6678a78a36222218afab0000de6f</value>
+    <value type="QString">DERBY_HOME=/opt/java/db</value>
+    <value type="QString">DESKTOP_SESSION=default</value>
+    <value type="QString">DISPLAY=:0</value>
+    <value type="QString">DM_CONTROL=/var/run/xdmctl</value>
+    <value type="QString">GPG_AGENT_INFO=/tmp/gpg-s9h6ed/S.gpg-agent:14276:1</value>
+    <value type="QString">GS_LIB=/home/ravi/.fonts</value>
+    <value type="QString">GTK2_RC_FILES=/home/ravi/.gtkrc-2.0-kde4</value>
+    <value type="QString">G_BROKEN_FILENAMES=1</value>
+    <value type="QString">HG=/usr/bin/hg</value>
+    <value type="QString">HISTCONTROL=erasedups</value>
+    <value type="QString">HISTSIZE=1000</value>
+    <value type="QString">HOME=/home/ravi</value>
+    <value type="QString">INPUTRC=/etc/inputrc</value>
+    <value type="QString">J2SDKDIR=/opt/java</value>
+    <value type="QString">JAVA_HOME=/opt/java</value>
+    <value type="QString">KDE_FULL_SESSION=true</value>
+    <value type="QString">KDE_MULTIHEAD=false</value>
+    <value type="QString">KDE_SESSION_UID=1000</value>
+    <value type="QString">KDE_SESSION_VERSION=4</value>
+    <value type="QString">LANG=en_IN.utf8</value>
+    <value type="QString">LANGUAGE=</value>
+    <value type="QString">LD_LIBRARY_PATH=/opt/qtsdk-2009.05/lib/qtcreator:</value>
+    <value type="QString">LESS=-R</value>
+    <value type="QString">LOGNAME=ravi</value>
+    <value type="QString">MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins</value>
+    <value type="QString">PATH=/usr/bin:/bin:/usr/bin:/sbin:/usr/sbin:/opt/java/bin:/opt/java/jre/bin:/usr/bin/perlbin/site:/usr/bin/perlbin/vendor:/usr/bin/perlbin/core</value>
+    <value type="QString">PKG_CONFIG_PATH=/usr/lib/pkgconfig</value>
+    <value type="QString">PS3=> </value>
+    <value type="QString">PS4=+ </value>
+    <value type="QString">PWD=/home/ravi/Documents</value>
+    <value type="QString">QTDIR=/usr/share/qt</value>
+    <value type="QString">QT_PLUGIN_PATH=/home/ravi/.kde4/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
+    <value type="QString">SESSION_MANAGER=local/Isengard:@/tmp/.ICE-unix/14330,unix/Isengard:/tmp/.ICE-unix/14330</value>
+    <value type="QString">SHELL=/bin/bash</value>
+    <value type="QString">SHLVL=1</value>
+    <value type="QString">SSH_AGENT_PID=14279</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-VRxgC14278/agent.14278</value>
+    <value type="QString">USER=ravi</value>
+    <value type="QString">WINDOWPATH=7</value>
+    <value type="QString">XCURSOR_THEME=Oxygen_Black</value>
+    <value type="QString">XDG_CACHE_HOME=/home/ravi/.cache</value>
+    <value type="QString">XDG_CONFIG_DIRS=/etc/xdg</value>
+    <value type="QString">XDG_CONFIG_HOME=/home/ravi/.config</value>
+    <value type="QString">XDG_DATA_DIRS=/usr/share:/usr/local/share</value>
+    <value type="QString">XDG_DATA_HOME=/home/ravi/.local/share</value>
+    <value type="QString">XDG_SESSION_COOKIE=dfbdcc73b46dafd558a6ee7f4b0fd604-1269804220.335849-1856029465</value>
+    <value type="QString">XDM_MANAGED=method=classic</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">/usr/bin/make</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/ravi/HypeRoam</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Debug-cleanstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Ak7DT9ueGe,guid=ed69c4b285c80667ffbcee7000000028</value>
+    <value type="QString">DERBY_HOME=/opt/java/db</value>
+    <value type="QString">DESKTOP_SESSION=default</value>
+    <value type="QString">DISPLAY=:0</value>
+    <value type="QString">DM_CONTROL=/var/run/xdmctl</value>
+    <value type="QString">GPG_AGENT_INFO=/tmp/gpg-fM4LWa/S.gpg-agent:3957:1</value>
+    <value type="QString">GS_LIB=/home/ravi/.fonts</value>
+    <value type="QString">GTK2_RC_FILES=/home/ravi/.gtkrc-2.0-kde4</value>
+    <value type="QString">G_BROKEN_FILENAMES=1</value>
+    <value type="QString">HG=/usr/bin/hg</value>
+    <value type="QString">HISTCONTROL=erasedups</value>
+    <value type="QString">HISTSIZE=1000</value>
+    <value type="QString">HOME=/home/ravi</value>
+    <value type="QString">INPUTRC=/etc/inputrc</value>
+    <value type="QString">J2SDKDIR=/opt/java</value>
+    <value type="QString">JAVA_HOME=/opt/java</value>
+    <value type="QString">KDE_FULL_SESSION=true</value>
+    <value type="QString">KDE_MULTIHEAD=false</value>
+    <value type="QString">KDE_SESSION_UID=1000</value>
+    <value type="QString">KDE_SESSION_VERSION=4</value>
+    <value type="QString">LANG=en_IN.utf8</value>
+    <value type="QString">LANGUAGE=</value>
+    <value type="QString">LD_LIBRARY_PATH=/opt/qtsdk-2009.05/lib/qtcreator:</value>
+    <value type="QString">LESS=-R</value>
+    <value type="QString">LOGNAME=ravi</value>
+    <value type="QString">MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins</value>
+    <value type="QString">PATH=/usr/bin:/bin:/usr/bin:/sbin:/usr/sbin:/opt/java/bin:/opt/java/jre/bin:/usr/bin/perlbin/site:/usr/bin/perlbin/vendor:/usr/bin/perlbin/core</value>
+    <value type="QString">PKG_CONFIG_PATH=/usr/lib/pkgconfig</value>
+    <value type="QString">PS3=> </value>
+    <value type="QString">PS4=+ </value>
+    <value type="QString">PWD=/home/ravi/Documents</value>
+    <value type="QString">QTDIR=/usr/share/qt</value>
+    <value type="QString">QT_PLUGIN_PATH=/home/ravi/.kde4/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
+    <value type="QString">SESSION_MANAGER=local/Isengard:@/tmp/.ICE-unix/4011,unix/Isengard:/tmp/.ICE-unix/4011</value>
+    <value type="QString">SHELL=/bin/bash</value>
+    <value type="QString">SHLVL=1</value>
+    <value type="QString">SSH_AGENT_PID=3960</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-gnjjDW3959/agent.3959</value>
+    <value type="QString">USER=ravi</value>
+    <value type="QString">WINDOWPATH=7</value>
+    <value type="QString">XCURSOR_THEME=Oxygen_Black</value>
+    <value type="QString">XDG_CACHE_HOME=/home/ravi/.cache</value>
+    <value type="QString">XDG_CONFIG_DIRS=/etc/xdg</value>
+    <value type="QString">XDG_CONFIG_HOME=/home/ravi/.config</value>
+    <value type="QString">XDG_DATA_DIRS=/usr/share:/usr/local/share</value>
+    <value type="QString">XDG_DATA_HOME=/home/ravi/.local/share</value>
+    <value type="QString">XDG_SESSION_COOKIE=dfbdcc73b46dafd558a6ee7f4b0fd604-1269747316.132584-465675663</value>
+    <value type="QString">XDM_MANAGED=method=classic</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">true</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">clean</value>
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">/usr/bin/make</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/ravi/HypeRoam</value>
+   <value key="cleanConfig" type="bool">true</value>
+   <valuelist key="makeargs" type="QVariantList">
+    <value type="QString">clean</value>
+   </valuelist>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-S60_3rd_FP1 (Qt 4.6.0) Debug-buildstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP1 (Qt 4.6.0) Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Hardik\Application Data</value>
+    <value type="QString">CLIENTNAME=Console</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=HARIRAJ</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">EPOCDEVICE=S60_3rd_FP1:com.nokia.s60</value>
+    <value type="QString">EPOCROOT=\Symbian\9.2\S60_3rd_FP1\</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Hardik</value>
+    <value type="QString">LOGONSERVER=\\HARIRAJ</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Program Files\CSL Arm Toolchain\bin;C:\Symbian\9.2\S60_3rd_FP1\\epoc32\gcc\bin;C:\Symbian\9.2\S60_3rd_FP1\\epoc32\tools;C:\Qt\4.6.0\bin;C:\Program Files\CSL Arm Toolchain\bin;C:\Program Files\Common Files\Symbian\Tools;C:\Perl\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 8 Stepping 6, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=0806</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files</value>
+    <value type="QString">QTDIR=C:/Qt/4.6.0</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\Hardik\LOCALS~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\Hardik\LOCALS~1\Temp</value>
+    <value type="QString">USERDOMAIN=HARIRAJ</value>
+    <value type="QString">USERNAME=Hardik</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Hardik</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">C:/HypeRoam/HypeRoam/HypeRoam.pro</value>
+    <value type="QString">-spec</value>
+    <value type="QString">symbian-abld</value>
+    <value type="QString">-r</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">c:/qt/4.6.0/bin/qmake.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/HypeRoam/HypeRoam</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-S60_3rd_FP1 (Qt 4.6.0) Debug-buildstep1</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP1 (Qt 4.6.0) Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Hardik\Application Data</value>
+    <value type="QString">CLIENTNAME=Console</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=HARIRAJ</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">EPOCDEVICE=S60_3rd_FP1:com.nokia.s60</value>
+    <value type="QString">EPOCROOT=\Symbian\9.2\S60_3rd_FP1\</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Hardik</value>
+    <value type="QString">LOGONSERVER=\\HARIRAJ</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Program Files\CSL Arm Toolchain\bin;C:\Symbian\9.2\S60_3rd_FP1\\epoc32\gcc\bin;C:\Symbian\9.2\S60_3rd_FP1\\epoc32\tools;C:\Qt\4.6.0\bin;C:\Program Files\CSL Arm Toolchain\bin;C:\Program Files\Common Files\Symbian\Tools;C:\Perl\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 8 Stepping 6, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=0806</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files</value>
+    <value type="QString">QTDIR=C:/Qt/4.6.0</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\Hardik\LOCALS~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\Hardik\LOCALS~1\Temp</value>
+    <value type="QString">USERDOMAIN=HARIRAJ</value>
+    <value type="QString">USERNAME=Hardik</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Hardik</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">debug-gcce</value>
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">C:/Symbian/9.2/S60_3rd_FP1//epoc32/tools/make.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/HypeRoam/HypeRoam</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-S60_3rd_FP1 (Qt 4.6.0) Debug-cleanstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP1 (Qt 4.6.0) Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Hardik\Application Data</value>
+    <value type="QString">CLIENTNAME=Console</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=HARIRAJ</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">EPOCDEVICE=S60_3rd_FP1:com.nokia.s60</value>
+    <value type="QString">EPOCROOT=\Symbian\9.2\S60_3rd_FP1\</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Hardik</value>
+    <value type="QString">LOGONSERVER=\\HARIRAJ</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Program Files\CSL Arm Toolchain\bin;C:\Symbian\9.2\S60_3rd_FP1\\epoc32\gcc\bin;C:\Symbian\9.2\S60_3rd_FP1\\epoc32\tools;C:\Qt\4.6.0\bin;C:\Program Files\CSL Arm Toolchain\bin;C:\Program Files\Common Files\Symbian\Tools;C:\Perl\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 8 Stepping 6, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=0806</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files</value>
+    <value type="QString">QTDIR=C:/Qt/4.6.0</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\Hardik\LOCALS~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\Hardik\LOCALS~1\Temp</value>
+    <value type="QString">USERDOMAIN=HARIRAJ</value>
+    <value type="QString">USERNAME=Hardik</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Hardik</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">true</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">clean</value>
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">C:/Symbian/9.2/S60_3rd_FP1//epoc32/tools/make.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/HypeRoam/HypeRoam</value>
+   <value key="cleanConfig" type="bool">true</value>
+   <valuelist key="makeargs" type="QVariantList">
+    <value type="QString">clean</value>
+   </valuelist>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-S60_3rd_FP1 (Qt 4.6.0) Release-buildstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP1 (Qt 4.6.0) Release</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-4SIJTEtnYm,guid=260e65718e3cef24c993bf7b4b41dc24</value>
+    <value type="QString">DERBY_HOME=/opt/java/db</value>
+    <value type="QString">DESKTOP_SESSION=default</value>
+    <value type="QString">DISPLAY=:0.0</value>
+    <value type="QString">DM_CONTROL=/var/run/xdmctl</value>
+    <value type="QString">GPG_AGENT_INFO=/tmp/gpg-U34WrR/S.gpg-agent:16854:1</value>
+    <value type="QString">GS_LIB=/home/ravi/.fonts</value>
+    <value type="QString">GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/ravi/.gtkrc-2.0:/home/ravi/.gtkrc-2.0-kde4:/home/ravi/.kde4/share/config/gtkrc-2.0</value>
+    <value type="QString">GTK_RC_FILES=/etc/gtk/gtkrc:/home/ravi/.gtkrc::/home/ravi/.kde4/share/config/gtkrc</value>
+    <value type="QString">G_BROKEN_FILENAMES=1</value>
+    <value type="QString">HISTCONTROL=erasedups</value>
+    <value type="QString">HISTSIZE=1000</value>
+    <value type="QString">HOME=/home/ravi</value>
+    <value type="QString">INPUTRC=/etc/inputrc</value>
+    <value type="QString">J2SDKDIR=/opt/java</value>
+    <value type="QString">JAVA_HOME=/opt/java</value>
+    <value type="QString">KDE_FULL_SESSION=true</value>
+    <value type="QString">KDE_MULTIHEAD=false</value>
+    <value type="QString">KDE_SESSION_UID=1000</value>
+    <value type="QString">KDE_SESSION_VERSION=4</value>
+    <value type="QString">LANG=en_IN.utf8</value>
+    <value type="QString">LC_COLLATE=C</value>
+    <value type="QString">LD_LIBRARY_PATH=/opt/qtsdk-2009.05/lib/qtcreator:</value>
+    <value type="QString">LESS=-R</value>
+    <value type="QString">LOGNAME=ravi</value>
+    <value type="QString">MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins</value>
+    <value type="QString">PATH=/usr/bin:/bin:/usr/bin:/sbin:/usr/sbin:/opt/java/bin:/opt/java/jre/bin:/usr/bin/perlbin/site:/usr/bin/perlbin/vendor:/usr/bin/perlbin/core</value>
+    <value type="QString">PKG_CONFIG_PATH=/usr/lib/pkgconfig</value>
+    <value type="QString">PS3=> </value>
+    <value type="QString">PS4=+ </value>
+    <value type="QString">PWD=/home/ravi</value>
+    <value type="QString">QTDIR=/usr/share/qt</value>
+    <value type="QString">QT_PLUGIN_PATH=/home/ravi/.kde4/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
+    <value type="QString">SESSION_MANAGER=local/Control-Centre:@/tmp/.ICE-unix/16906,unix/Control-Centre:/tmp/.ICE-unix/16906</value>
+    <value type="QString">SHELL=/bin/bash</value>
+    <value type="QString">SHLVL=1</value>
+    <value type="QString">SSH_AGENT_PID=16857</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-ZAluZ16856/agent.16856</value>
+    <value type="QString">USER=ravi</value>
+    <value type="QString">WINDOWPATH=7</value>
+    <value type="QString">XCURSOR_THEME=Oxygen_Black</value>
+    <value type="QString">XDG_CACHE_HOME=/home/ravi/.cache</value>
+    <value type="QString">XDG_CONFIG_DIRS=/etc/xdg</value>
+    <value type="QString">XDG_CONFIG_HOME=/home/ravi/.config</value>
+    <value type="QString">XDG_DATA_DIRS=/usr/share:/usr/local/share</value>
+    <value type="QString">XDG_DATA_HOME=/home/ravi/.local/share</value>
+    <value type="QString">XDG_SESSION_COOKIE=dfbdcc73b46dafd558a6ee7f4b0fd604-1262607395.392015-1370256431</value>
+    <value type="QString">XDM_MANAGED=method=classic</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">/home/ravi/HypeRoam_1/HypeRoam.pro</value>
+    <value type="QString">-spec</value>
+    <value type="QString">linux-g++</value>
+    <value type="QString">-r</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">/usr/bin/qmake</value>
+   <value key="abstractProcess.enabled" type="bool">false</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/ravi/HypeRoam_1</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-S60_3rd_FP1 (Qt 4.6.0) Release-buildstep1</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP1 (Qt 4.6.0) Release</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-4SIJTEtnYm,guid=260e65718e3cef24c993bf7b4b41dc24</value>
+    <value type="QString">DERBY_HOME=/opt/java/db</value>
+    <value type="QString">DESKTOP_SESSION=default</value>
+    <value type="QString">DISPLAY=:0.0</value>
+    <value type="QString">DM_CONTROL=/var/run/xdmctl</value>
+    <value type="QString">GPG_AGENT_INFO=/tmp/gpg-U34WrR/S.gpg-agent:16854:1</value>
+    <value type="QString">GS_LIB=/home/ravi/.fonts</value>
+    <value type="QString">GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/ravi/.gtkrc-2.0:/home/ravi/.gtkrc-2.0-kde4:/home/ravi/.kde4/share/config/gtkrc-2.0</value>
+    <value type="QString">GTK_RC_FILES=/etc/gtk/gtkrc:/home/ravi/.gtkrc::/home/ravi/.kde4/share/config/gtkrc</value>
+    <value type="QString">G_BROKEN_FILENAMES=1</value>
+    <value type="QString">HISTCONTROL=erasedups</value>
+    <value type="QString">HISTSIZE=1000</value>
+    <value type="QString">HOME=/home/ravi</value>
+    <value type="QString">INPUTRC=/etc/inputrc</value>
+    <value type="QString">J2SDKDIR=/opt/java</value>
+    <value type="QString">JAVA_HOME=/opt/java</value>
+    <value type="QString">KDE_FULL_SESSION=true</value>
+    <value type="QString">KDE_MULTIHEAD=false</value>
+    <value type="QString">KDE_SESSION_UID=1000</value>
+    <value type="QString">KDE_SESSION_VERSION=4</value>
+    <value type="QString">LANG=en_IN.utf8</value>
+    <value type="QString">LC_COLLATE=C</value>
+    <value type="QString">LD_LIBRARY_PATH=/opt/qtsdk-2009.05/lib/qtcreator:</value>
+    <value type="QString">LESS=-R</value>
+    <value type="QString">LOGNAME=ravi</value>
+    <value type="QString">MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins</value>
+    <value type="QString">PATH=/usr/bin:/bin:/usr/bin:/sbin:/usr/sbin:/opt/java/bin:/opt/java/jre/bin:/usr/bin/perlbin/site:/usr/bin/perlbin/vendor:/usr/bin/perlbin/core</value>
+    <value type="QString">PKG_CONFIG_PATH=/usr/lib/pkgconfig</value>
+    <value type="QString">PS3=> </value>
+    <value type="QString">PS4=+ </value>
+    <value type="QString">PWD=/home/ravi</value>
+    <value type="QString">QTDIR=/usr/share/qt</value>
+    <value type="QString">QT_PLUGIN_PATH=/home/ravi/.kde4/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
+    <value type="QString">SESSION_MANAGER=local/Control-Centre:@/tmp/.ICE-unix/16906,unix/Control-Centre:/tmp/.ICE-unix/16906</value>
+    <value type="QString">SHELL=/bin/bash</value>
+    <value type="QString">SHLVL=1</value>
+    <value type="QString">SSH_AGENT_PID=16857</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-ZAluZ16856/agent.16856</value>
+    <value type="QString">USER=ravi</value>
+    <value type="QString">WINDOWPATH=7</value>
+    <value type="QString">XCURSOR_THEME=Oxygen_Black</value>
+    <value type="QString">XDG_CACHE_HOME=/home/ravi/.cache</value>
+    <value type="QString">XDG_CONFIG_DIRS=/etc/xdg</value>
+    <value type="QString">XDG_CONFIG_HOME=/home/ravi/.config</value>
+    <value type="QString">XDG_DATA_DIRS=/usr/share:/usr/local/share</value>
+    <value type="QString">XDG_DATA_HOME=/home/ravi/.local/share</value>
+    <value type="QString">XDG_SESSION_COOKIE=dfbdcc73b46dafd558a6ee7f4b0fd604-1262607395.392015-1370256431</value>
+    <value type="QString">XDM_MANAGED=method=classic</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">/usr/bin/make</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/ravi/HypeRoam_1</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-S60_3rd_FP1 (Qt 4.6.0) Release-cleanstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP1 (Qt 4.6.0) Release</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-4SIJTEtnYm,guid=260e65718e3cef24c993bf7b4b41dc24</value>
+    <value type="QString">DERBY_HOME=/opt/java/db</value>
+    <value type="QString">DESKTOP_SESSION=default</value>
+    <value type="QString">DISPLAY=:0.0</value>
+    <value type="QString">DM_CONTROL=/var/run/xdmctl</value>
+    <value type="QString">GPG_AGENT_INFO=/tmp/gpg-U34WrR/S.gpg-agent:16854:1</value>
+    <value type="QString">GS_LIB=/home/ravi/.fonts</value>
+    <value type="QString">GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/ravi/.gtkrc-2.0:/home/ravi/.gtkrc-2.0-kde4:/home/ravi/.kde4/share/config/gtkrc-2.0</value>
+    <value type="QString">GTK_RC_FILES=/etc/gtk/gtkrc:/home/ravi/.gtkrc::/home/ravi/.kde4/share/config/gtkrc</value>
+    <value type="QString">G_BROKEN_FILENAMES=1</value>
+    <value type="QString">HISTCONTROL=erasedups</value>
+    <value type="QString">HISTSIZE=1000</value>
+    <value type="QString">HOME=/home/ravi</value>
+    <value type="QString">INPUTRC=/etc/inputrc</value>
+    <value type="QString">J2SDKDIR=/opt/java</value>
+    <value type="QString">JAVA_HOME=/opt/java</value>
+    <value type="QString">KDE_FULL_SESSION=true</value>
+    <value type="QString">KDE_MULTIHEAD=false</value>
+    <value type="QString">KDE_SESSION_UID=1000</value>
+    <value type="QString">KDE_SESSION_VERSION=4</value>
+    <value type="QString">LANG=en_IN.utf8</value>
+    <value type="QString">LC_COLLATE=C</value>
+    <value type="QString">LD_LIBRARY_PATH=/opt/qtsdk-2009.05/lib/qtcreator:</value>
+    <value type="QString">LESS=-R</value>
+    <value type="QString">LOGNAME=ravi</value>
+    <value type="QString">MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins</value>
+    <value type="QString">PATH=/usr/bin:/bin:/usr/bin:/sbin:/usr/sbin:/opt/java/bin:/opt/java/jre/bin:/usr/bin/perlbin/site:/usr/bin/perlbin/vendor:/usr/bin/perlbin/core</value>
+    <value type="QString">PKG_CONFIG_PATH=/usr/lib/pkgconfig</value>
+    <value type="QString">PS3=> </value>
+    <value type="QString">PS4=+ </value>
+    <value type="QString">PWD=/home/ravi</value>
+    <value type="QString">QTDIR=/usr/share/qt</value>
+    <value type="QString">QT_PLUGIN_PATH=/home/ravi/.kde4/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
+    <value type="QString">SESSION_MANAGER=local/Control-Centre:@/tmp/.ICE-unix/16906,unix/Control-Centre:/tmp/.ICE-unix/16906</value>
+    <value type="QString">SHELL=/bin/bash</value>
+    <value type="QString">SHLVL=1</value>
+    <value type="QString">SSH_AGENT_PID=16857</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-ZAluZ16856/agent.16856</value>
+    <value type="QString">USER=ravi</value>
+    <value type="QString">WINDOWPATH=7</value>
+    <value type="QString">XCURSOR_THEME=Oxygen_Black</value>
+    <value type="QString">XDG_CACHE_HOME=/home/ravi/.cache</value>
+    <value type="QString">XDG_CONFIG_DIRS=/etc/xdg</value>
+    <value type="QString">XDG_CONFIG_HOME=/home/ravi/.config</value>
+    <value type="QString">XDG_DATA_DIRS=/usr/share:/usr/local/share</value>
+    <value type="QString">XDG_DATA_HOME=/home/ravi/.local/share</value>
+    <value type="QString">XDG_SESSION_COOKIE=dfbdcc73b46dafd558a6ee7f4b0fd604-1262607395.392015-1370256431</value>
+    <value type="QString">XDM_MANAGED=method=classic</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">true</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">clean</value>
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">/usr/bin/make</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/ravi/HypeRoam_1</value>
+   <value key="cleanConfig" type="bool">true</value>
+   <valuelist key="makeargs" type="QVariantList">
+    <value type="QString">clean</value>
+   </valuelist>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-release-buildstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Hardik\Application Data</value>
+    <value type="QString">CLIENTNAME=Console</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=HARIRAJ</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Hardik</value>
+    <value type="QString">LOGONSERVER=\\HARIRAJ</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=D:\Qt\2009.05\mingw\bin;D:\Qt\2009.05\qt\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 8 Stepping 6, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=0806</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files</value>
+    <value type="QString">QTDIR=D:/Qt/2009.05/qt</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\Hardik\LOCALS~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\Hardik\LOCALS~1\Temp</value>
+    <value type="QString">USERDOMAIN=HARIRAJ</value>
+    <value type="QString">USERNAME=Hardik</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Hardik</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">C:/Documents and Settings/Hardik/Desktop/HypeRoam/HypeRoam/HypeRoam.pro</value>
+    <value type="QString">-spec</value>
+    <value type="QString">win32-g++</value>
+    <value type="QString">-r</value>
+    <value type="QString">CONFIG+=release</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">d:/qt/2009.05/qt/bin/qmake.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Documents and Settings/Hardik/Desktop/HypeRoam/HypeRoam</value>
+   <value key="buildConfiguration" type=""></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-release-buildstep1</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Hardik\Application Data</value>
+    <value type="QString">CLIENTNAME=Console</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=HARIRAJ</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Hardik</value>
+    <value type="QString">LOGONSERVER=\\HARIRAJ</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=D:\Qt\2009.05\mingw\bin;D:\Qt\2009.05\qt\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 8 Stepping 6, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=0806</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files</value>
+    <value type="QString">QTDIR=D:/Qt/2009.05/qt</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\Hardik\LOCALS~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\Hardik\LOCALS~1\Temp</value>
+    <value type="QString">USERDOMAIN=HARIRAJ</value>
+    <value type="QString">USERNAME=Hardik</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Hardik</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">D:/Qt/2009.05/mingw/bin/mingw32-make.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Documents and Settings/Hardik/Desktop/HypeRoam/HypeRoam</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-release-cleanstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Hardik\Application Data</value>
+    <value type="QString">CLIENTNAME=Console</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=HARIRAJ</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Hardik</value>
+    <value type="QString">LOGONSERVER=\\HARIRAJ</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=D:\Qt\2009.05\mingw\bin;D:\Qt\2009.05\qt\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 8 Stepping 6, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=0806</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files</value>
+    <value type="QString">QTDIR=D:/Qt/2009.05/qt</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\Hardik\LOCALS~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\Hardik\LOCALS~1\Temp</value>
+    <value type="QString">USERDOMAIN=HARIRAJ</value>
+    <value type="QString">USERNAME=Hardik</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Hardik</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">true</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">clean</value>
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">D:/Qt/2009.05/mingw/bin/mingw32-make.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Documents and Settings/Hardik/Desktop/HypeRoam/HypeRoam</value>
+   <value key="cleanConfig" type="bool">true</value>
+   <valuelist key="makeargs" type="QVariantList">
+    <value type="QString">clean</value>
+   </valuelist>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfigurations</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">Debug</value>
+   <value type="QString">release</value>
+   <value type="QString">S60_3rd_FP1 (Qt 4.6.0) Debug</value>
+   <value type="QString">S60_3rd_FP1 (Qt 4.6.0) Release</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>buildstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString"></value>
+   <value key="mkspec" type="QString"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildstep1</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildsteps</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">trolltech.qt4projectmanager.qmake</value>
+   <value type="QString">trolltech.qt4projectmanager.make</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>cleanstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString"></value>
+   <value key="clean" type="bool">true</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>cleansteps</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">trolltech.qt4projectmanager.make</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>defaultFileEncoding</variable>
+  <value type="QByteArray">UTF-8</value>
+ </data>
+ <data>
+  <variable>project</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+</qtcreator>

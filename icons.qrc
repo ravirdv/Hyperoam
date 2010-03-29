@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="connected">icons/connected.png</file>
+        <file alias="app">icons/HypeRoam.png</file>
+        <file alias="notConnected">icons/notConnected.png</file>
+        <file alias="switch">icons/switch.png</file>
+    </qresource>
+</RCC>
