@@ -140,6 +140,7 @@ void Widget::loginFinished(QNetworkReply*)
              mTray->setIcon ( QIcon(":/icons/connected") );
             mTray->setToolTip(QString("HypeRoam - Connected using ").append(uid));
             failCounter = 0;
+            sleepTime = 3000;
         }
         else if(s.contains("Multiple+login+not+allowed"))
         {
@@ -154,6 +155,7 @@ void Widget::loginFinished(QNetworkReply*)
             QTimer::singleShot(3000,this,SLOT());
 
             Notify("Some error :S");
+            qDebug()<<s;
             mTray->setIcon( QIcon(":/icons/switch"));
             if (failCounter < 10 )
             {
