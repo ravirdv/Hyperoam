@@ -53,7 +53,6 @@ private slots:
     void on_switchTimeSlider_valueChanged(int value);
     void on_disableBalloonTips_toggled(bool checked);
     void tryConnect(QString id, QString pwd);
-    void on_logout_clicked();
     void on_checkBox_toggled(bool checked);
     void on_accountList_itemDoubleClicked(QListWidgetItem* item);
     void on_switchAccount_clicked();
