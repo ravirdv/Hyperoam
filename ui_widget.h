@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'widget.ui'
 **
-** Created: Sun Mar 28 17:54:52 2010
+** Created: Wed Mar 31 19:43:08 2010
 **      by: Qt User Interface Compiler version 4.6.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -48,7 +48,6 @@ public:
     QFrame *line_3;
     QLabel *label_8;
     QCheckBox *checkBox;
-    QPushButton *logout;
     QCheckBox *autoSwitch;
     QCheckBox *disableBalloonTips;
     QSlider *switchTimeSlider;
@@ -104,7 +103,7 @@ public:
         removeAccount->setGeometry(QRect(90, 126, 95, 24));
         switchAccount = new QPushButton(Widget);
         switchAccount->setObjectName(QString::fromUtf8("switchAccount"));
-        switchAccount->setGeometry(QRect(110, 18, 101, 24));
+        switchAccount->setGeometry(QRect(20, 20, 101, 24));
         label_5 = new QLabel(Widget);
         label_5->setObjectName(QString::fromUtf8("label_5"));
         label_5->setGeometry(QRect(20, 164, 111, 16));
@@ -135,9 +134,6 @@ public:
         checkBox = new QCheckBox(Widget);
         checkBox->setObjectName(QString::fromUtf8("checkBox"));
         checkBox->setGeometry(QRect(246, 246, 131, 23));
-        logout = new QPushButton(Widget);
-        logout->setObjectName(QString::fromUtf8("logout"));
-        logout->setGeometry(QRect(18, 18, 95, 24));
         autoSwitch = new QCheckBox(Widget);
         autoSwitch->setObjectName(QString::fromUtf8("autoSwitch"));
         autoSwitch->setGeometry(QRect(247, 225, 131, 23));
@@ -160,7 +156,6 @@ public:
         QWidget::setTabOrder(startButton, checkBox);
         QWidget::setTabOrder(checkBox, switchAccount);
         QWidget::setTabOrder(switchAccount, accountList);
-        QWidget::setTabOrder(accountList, logout);
 
         retranslateUi(Widget);
 
@@ -184,7 +179,6 @@ public:
         notificationLabel->setText(QApplication::translate("Widget", "Notifications", 0, QApplication::UnicodeUTF8));
         label_8->setText(QApplication::translate("Widget", "Author: HyperDUDe", 0, QApplication::UnicodeUTF8));
         checkBox->setText(QApplication::translate("Widget", "Connect on Starup", 0, QApplication::UnicodeUTF8));
-        logout->setText(QApplication::translate("Widget", "logout", 0, QApplication::UnicodeUTF8));
         autoSwitch->setText(QApplication::translate("Widget", "Auto Switch", 0, QApplication::UnicodeUTF8));
         disableBalloonTips->setText(QApplication::translate("Widget", "Disable balloon tips", 0, QApplication::UnicodeUTF8));
         label_6->setText(QApplication::translate("Widget", "Minutes", 0, QApplication::UnicodeUTF8));

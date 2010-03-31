@@ -34,11 +34,9 @@ Widget::Widget(QWidget *parent) :
 {
     ui->setupUi(this);
     manager = new QNetworkAccessManager();
-    manager1 = new QNetworkAccessManager();
     timer = new QTimer(this);
     timer1 = new QTimer(this);
     connect(manager,SIGNAL(finished(QNetworkReply*)),this, SLOT(loginFinished(QNetworkReply*)));
-    connect(manager1,SIGNAL(finished(QNetworkReply*)),this, SLOT(logoutFinished(QNetworkReply*)));
     connect(timer, SIGNAL(timeout()),this, SLOT(on_switchAccount_clicked()));
     connect(timer1, SIGNAL(timeout()),this, SLOT(changeOpacity()));
 
@@ -65,14 +63,12 @@ Widget::Widget(QWidget *parent) :
     sleepTime = 3000;
     initOpacity();
     fillList();
-    ui->logout->setVisible(false);
     ui->switchAccount->setVisible(false);
     ui->label_6->setText(QString::number(ui->switchTimeSlider->value()));
 }
 
 Widget::~Widget()
 {
-    tryLogout(uid);
     delete ui;
 }
 
@@ -113,14 +109,28 @@ void Widget::on_startButton_clicked()
         if(ui->accountList->count() > 0)
         {
 
-            uid = ui->accountList->itemAt(0,0)->text();
-            pwd = db.getPassword(uid);
-            tryConnect(uid,pwd);
-            if(ui->autoSwitch->isChecked())
+            if(ui->accountList->currentItem())
             {
-            timer->start(ui->switchTimeSlider->value() * 60000);
-            hide();
+                 uid = ui->accountList->currentItem()->text();
+                 pwd = db.getPassword(uid);
+                 tryConnect(uid,pwd);
+                 if(ui->autoSwitch->isChecked() && !timer->isActive())
+                  {
+                      timer->start(ui->switchTimeSlider->value() * 60000);
+                      hide();
+                   }
             }
+            else
+            {
+                 uid = ui->accountList->itemAt(0,0)->text();
+                 pwd = db.getPassword(uid);
+                 tryConnect(uid,pwd);
+                     if(ui->autoSwitch->isChecked() && !timer->isActive())
+                      {
+                          timer->start(ui->switchTimeSlider->value() * 60000);
+                          hide();
+                       }
+             }
         }
         else
         {
@@ -145,10 +155,8 @@ void Widget::loginFinished(QNetworkReply*)
         else if(s.contains("Multiple+login+not+allowed"))
         {
             ui->inUseLabel->setText("Multiple login not allowed");
-            tryLogout(uid);
             failCounter++;
             if(failCounter < 10) QTimer::singleShot(4000, this, SLOT(on_switchAccount_clicked()));
-           // mTray->setIcon( QIcon(":/icons/switch"));
         }
         else
         {
@@ -168,26 +176,12 @@ void Widget::loginFinished(QNetworkReply*)
         }
  }
 
-void Widget::logoutFinished(QNetworkReply*)
-{
-    QString s = logoutReply->readAll();
-    if(s.contains("You+have+successfully+logged+off"))
-    {
-            Notify("You have successfully logged off");
-            ui->inUseLabel->setText("None");
-            mTray->setIcon ( QIcon(":/icons/notConnected") );
-    }
-}
 
 void Widget::tryConnect(QString id, QString pwd)
 {
     reply = manager->post(req, (QString("mode=191&isAccessDenied=null&url=null&message=&username=").append(id).append("@da-iict.org&password=").append(pwd).append("&saveinfo=saveinfo&login=Login")).toLocal8Bit());
 }
 
-void Widget::tryLogout(QString id)
-{
-    logoutReply = manager1->post(req, (QString("mode=193&isAccessDenied=&url=&message=&username=").append(id).append("@da-iict.org&password=****&btnSubmit=Logout")).toLocal8Bit());
-}
 
 void Widget::fillList()
 {
@@ -210,16 +204,18 @@ void Widget::on_removeAccount_clicked()
 
 void Widget::on_switchAccount_clicked()
 {
-    qDebug() << ui->accountList->selectedItems();
     if(ui->accountList->count())
     {
     if (idIndex == ui->accountList->count() - 1)
             idIndex = 0;
     else
             idIndex++;
-    tryLogout(uid);
     uid = ui->accountList->item(idIndex)->text();
     tryConnect(uid,db.getPassword(uid));
+    if(ui->autoSwitch->isChecked())
+    {
+    timer->start(ui->switchTimeSlider->value() * 60000);
+    }
     Notify(QString("Trying to Connect using ").append(uid));
     }
 }
@@ -252,7 +248,9 @@ void Widget::setupTray()
 
 void Widget::on_accountList_itemDoubleClicked(QListWidgetItem* item)
 {
-    on_startButton_clicked();
+    uid =item->text();
+    pwd =db.getPassword(item->text());
+    tryConnect(uid,pwd);
 }
 
 void Widget::changeOpacity()
@@ -295,10 +293,7 @@ void Widget::on_checkBox_toggled(bool checked)
     }
 }
 
-void Widget::on_logout_clicked()
-{
-    tryLogout(ui->accountList->currentItem()->text());
-}
+
 void Widget::trayActivated(QSystemTrayIcon::ActivationReason reason)
 {
     switch (reason) {

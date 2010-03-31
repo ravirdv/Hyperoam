@@ -12,3 +12,4 @@ HEADERS += widget.h \
     database.h
 FORMS += widget.ui
 RESOURCES += icons.qrc
+RC_FILE = hyperoam.rc

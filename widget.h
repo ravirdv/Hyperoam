@@ -26,9 +26,9 @@ public:
     unsigned int sleepTime;
     Widget(QWidget *parent = 0);
     ~Widget();
-    QNetworkAccessManager *manager, *manager1;
+    QNetworkAccessManager *manager,;
     QNetworkRequest req;
-    QNetworkReply *reply, *logoutReply;
+    QNetworkReply *reply, ;
     QString uid,pwd;
     QSystemTrayIcon *mTray;
     database db;
@@ -52,7 +52,6 @@ private slots:
     void on_autoSwitch_toggled(bool checked);
     void on_switchTimeSlider_valueChanged(int value);
     void on_disableBalloonTips_toggled(bool checked);
-    void tryLogout(QString id);
     void tryConnect(QString id, QString pwd);
     void on_logout_clicked();
     void on_checkBox_toggled(bool checked);
@@ -62,7 +61,6 @@ private slots:
     void on_startButton_clicked();
     void on_addButton_clicked();
     void loginFinished(QNetworkReply*);
-    void logoutFinished(QNetworkReply*);
     void changeOpacity();
     void trayActivated(QSystemTrayIcon::ActivationReason reason);
 };
